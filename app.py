@@ -69,6 +69,8 @@ st.markdown("""
 
 # 標題區
 st.markdown('<div class="big-title">🏪雜貨店轉型方案</div>', unsafe_allow_html=True)
+st.markdown('<div class="sub-title">50年老店</div>', unsafe_allow_html=True)
+
 
 # 雲端狀態顯示
 col1, col2, col3 = st.columns(3)
@@ -424,4 +426,5 @@ with col3:
         <p><strong>投資回收：6-8個月</strong></p>
     </div>
     """, unsafe_allow_html=True)
+
 
